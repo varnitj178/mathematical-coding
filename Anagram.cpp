@@ -32,7 +32,7 @@ int main()
 	cin>>test;
 	while(test--)
 	{
-		cout<<"Enter the two strings to check for anagram: "
+		cout<<"Enter the two strings to check for anagram: ";
 	    string a,b,res;
 	    cin>>a>>b;
 	    res=anagram(a,b);
